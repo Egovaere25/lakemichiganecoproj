@@ -1,0 +1,268 @@
+#image{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+#background{
+    position: fixed;
+    background-color: rgb(137, 155, 194);
+
+    width: 80%;
+    height: 100%;
+    left: 10%;
+    z-index: 2;
+}
+
+#title{
+    position: fixed;
+    text-align: center;
+    -webkit-text-fill-color: rgb(241, 196, 14);
+    background-color: rgb(59, 88, 151);
+    border-bottom-color: rgb(222, 226, 237);
+    border-width: 6px;
+    border-style:double;
+    font-size: 390%;
+    font-weight: 800;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px;
+
+    left: 0%;
+    width: 100%;
+    height: 10%;
+    top: 0px;
+    z-index: 2;
+}
+
+
+
+#webBox{
+    position: fixed;
+    left: 15%;
+    top: 13%;
+    background-color: rgb(59, 88, 151);
+    width: 50%;
+    height: 80%;
+    
+    z-index: 2;
+}
+
+#descriptionBox{
+    position: fixed;
+    left: 66%;
+    top: 13%;
+    background-color: rgb(59, 88, 151);
+    width: 19%;
+    height: 70%;
+
+    -webkit-text-fill-color: rgb(247, 247, 247);
+    font-size: 20px;
+    font-weight: 400;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 4px;
+
+    z-index: 2;
+    
+}
+
+#predSelect{
+    position: fixed;
+    left: 66%;
+    top: 86%;
+    background-color: rgb(59, 88, 151);
+    width: 20%;
+    height: 8%;
+
+    /* Text specificstions: */
+    -webkit-text-fill-color: rgb(241, 196, 14);
+    font-size: 180%;
+    font-weight:600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    z-index: 2;
+}
+
+#sourceBox{
+    background-color: rgb(137, 155, 194);
+    position: fixed;
+    width: 17.5%;
+    height: 20%;
+    z-index: 4;
+
+    left: 67%;
+    top: 61%;
+}
+
+#titleItem{
+    position: fixed;
+    top:55%;
+    left: 67%;
+    z-index: 4;
+    -webkit-text-fill-color: rgb(247, 247, 247);
+}
+
+
+.roundItem{
+    border-radius: 12px;
+    border-color: rgb(247, 247, 247);
+    border-style:outset;
+    border-width: 2px;
+    
+}
+
+.web{
+    position: fixed;
+    z-index: 4;
+    width: 50%;
+    height: 80%;
+}
+
+#web2{
+    display: none;
+}
+
+.bioButton{
+    position: fixed;
+    background-color: rgb(241, 196, 14);
+    -webkit-text-fill-color: rgb(241, 196, 14);
+    font-size: 1%;
+
+    width: 7%;
+    height: 16%;
+    z-index: 5;
+}
+
+#humans{
+    left: 18%;
+    top: 18%;
+
+    opacity: 1%;
+}
+
+#greatBlueHeron{
+    left: 27%;
+    top: 18%;
+
+    opacity: 1%;
+}
+
+#muskie{
+    left: 37%;
+    top: 18%;
+
+    opacity: 1%;
+}
+
+#smallmouthBass{
+    left: 47%;
+    top: 18%;
+
+    opacity: 1%;
+}
+
+#walleye{
+    left: 55%;
+    top: 18%;
+
+    opacity: 1%;
+}
+
+
+#yellowPerch{
+    left: 27%;
+    top: 39%;
+
+    opacity: 1%;
+}
+
+#lakeSturgeon{
+    left: 37%;
+    top: 39%;
+
+    opacity: 1%;
+}
+
+#roundGoby{
+    left: 47%;
+    top: 39%;
+
+    opacity: 1%;
+}
+
+#canvasback{
+    left: 16%;
+    top: 58%;
+
+    opacity: 1%;
+}
+
+#worm{
+    left: 23%;
+    top: 58%;
+
+    opacity: 1%;
+}
+
+#pouchSnail{
+    left: 30%;
+    top: 58%;
+
+    opacity: 1%;
+}
+
+#leech{
+    left: 37%;
+    top: 58%;
+
+    opacity: 1%;
+}
+
+#crayfish{
+    left: 44%;
+    top: 58%;
+
+    opacity: 1%;
+}
+
+#rainbowSmelt{
+    left: 51%;
+    top: 58%;
+
+    opacity: 1%;
+}
+
+#zebraMussel{
+    left: 58%;
+    top: 58%;
+
+    opacity: 1%;
+}
+
+#zooplankton{
+    left: 25%;
+    top: 75%;
+
+    opacity: 1%;
+}
+
+#wildCelery{
+    left: 33%;
+    top: 75%;
+
+    opacity: 1%;
+}
+
+#bacteria{
+    left: 40%;
+    top: 75%;
+
+    opacity: 1%;
+}
+
+#phytoplankton{
+    left: 49%;
+    top: 75%;
+
+    opacity: 1%;
+}

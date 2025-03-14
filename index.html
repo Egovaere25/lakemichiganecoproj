@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lake Michigan Food Web</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="icon" href="imageResources/duck.png" type="image/x-icon">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="background"></div>
+    <img id="image" src="imageResources/lake-michigan.png">
+        <div id="title">Lake Michigan Food Web</div>
+        <div id="webBox" class="roundItem">
+            <img id="web1" src="imageResources/foodwebPNGs/baseWeb.png" class="web">
+            <img id="web2" src="imageResources/foodwebPNGs/predWeb.png" class="web">
+
+            <div id="humans" class="bioButton" onmouseover="overMouse(this)" onmouseleave="leaveMouse(this)" onclick="setDesc(this)">Humans are the greatest predators in recorded history. Most living organisms can and have been eaten by them.</div>
+            <div id="greatBlueHeron" class="bioButton" onmouseover="overMouse(this)" onmouseleave="leaveMouse(this)" onclick="setDesc(this)">Great Blue Herons are large birds which consume fish and crustaceans. They live over the shores of wetlands in North and Central America.</div>
+            <div id="muskie" class="bioButton" onmouseover="overMouse(this)" onmouseleave="leaveMouse(this)" onclick="setDesc(this)">Muskellunges are large fish which eat worms and smaller fish. They live in the large bodies of water around Northern Michigan, Wisconson, and Minnesota.</div>
+            <div id="smallmouthBass" class="bioButton" onmouseover="overMouse(this)" onmouseleave="leaveMouse(this)" onclick="setDesc(this)">Composed of two subspecies, the Northern and Neosho, Smallmouth Bass primarily eat smaller fish, insects, and crayfish. </div>
+            <div id="walleye" class="bioButton" onmouseover="overMouse(this)" onmouseleave="leaveMouse(this)" onclick="setDesc(this)">Walleyes live in freshwater lakes and natural resevoirs. They prefer living in deeper waters and eat insects, leeces, and crayfish. </div>
+
+            <div id="yellowPerch" class="bioButton" onmouseover="overMouse(this)" onmouseleave="leaveMouse(this)" onclick="setDesc(this)">Yellow Perch feed on insects, invertebrates, and shrimp. However, they primarily feed on zooplankton during their younger years.</div>
+            <div id="lakeSturgeon" class="bioButton" onmouseover="overMouse(this)" onmouseleave="leaveMouse(this)" onclick="setDesc(this)">Lake Sturgeons lack teeth and instead use their long lips to suck up insects, worms, and larvae.</div>
+            <div id="roundGoby" class="bioButton" onmouseover="overMouse(this)" onmouseleave="leaveMouse(this)" onclick="setDesc(this)">Round gobies are bottom-dwelling fish which primarily feed off of crustaceans, worms, zebra mussels and other small invertebrates. These fish will feed both nocturnally and in daytime.</div>
+
+            <div id="canvasback" class="bioButton" onmouseover="overMouse(this)" onmouseleave="leaveMouse(this)" onclick="setDesc(this)">Canvasbacks are large-headed ducks with short tails and vibrant colors. They feed on tubers and clams when they dive underwater.</div>
+            <div id="worm" class="bioButton" onmouseover="overMouse(this)" onmouseleave="leaveMouse(this)" onclick="setDesc(this)">Worms tend to eat of a large variety of nutrient-containing waste products as well as other decomposers. Examples include dead plants, bacteria, detritus, and fungi.</div>
+            <div id="pouchSnail" class="bioButton" onmouseover="overMouse(this)" onmouseleave="leaveMouse(this)" onclick="setDesc(this)">Pouch snails feed on underwater plants and algae. They're common in cold and/or arctic freshwater in northern America.</div>
+            <div id="leech" class="bioButton" onmouseover="overMouse(this)" onmouseleave="leaveMouse(this)" onclick="setDesc(this)">Leeches are aquatic worms with suckers on both ends to consume blood from prey. Several species of leeches exist. Some suck blood while others feed on flesh or bodily juices.</div>
+            <div id="crayfish" class="bioButton" onmouseover="overMouse(this)" onmouseleave="leaveMouse(this)" onclick="setDesc(this)">Crayfish are omnivorous scavengers which eat submerged plant material and nutritional waste.</div>
+            <div id="rainbowSmelt" class="bioButton" onmouseover="overMouse(this)" onmouseleave="leaveMouse(this)" onclick="setDesc(this)">Rainbow Smelt eat most small aquatic organisms in their ecosystem. They're agressive and hungry fish which will eat any fish they can find and fit in their mouth.</div>
+            <div id="zebraMussel" class="bioButton" onmouseover="overMouse(this)" onmouseleave="leaveMouse(this)" onclick="setDesc(this)">Zebra Mussels are an invasive species in the Great Lakes. They feed by filtering water and removing bacteria and plankton to eat from it.</div>
+
+            <div id="zooplankton" class="bioButton" onmouseover="overMouse(this)" onmouseleave="leaveMouse(this)" onclick="setDesc(this)">Zooplankton are tiny animals that live in water and feed off off phytoplankton. They differ from phytoplankton in the fact they're much larger.</div>
+            <div id="wildCelery" class="bioButton" onmouseover="overMouse(this)" onmouseleave="leaveMouse(this)" onclick="setDesc(this)">Wild celery is plant which grows on the bed of rivers and lakes. It feeds off of nutrients in the water and soil as well as sunlight.</div>
+            <div id="bacteria" class="bioButton" onmouseover="overMouse(this)" onmouseleave="leaveMouse(this)" onclick="setDesc(this)">Bacteria, fungi, and detrius all act as tiny micro organisms and nutrients in the water of the Great Lakes. They decompose dead organisms and return their nutrients back into the food cycle.</div>
+            <div id="phytoplankton" class="bioButton" onmouseover="overMouse(this)" onmouseleave="leaveMouse(this)" onclick="setDesc(this)">Phytoplankton are microscopic organisms which absorb components from the water around them as well sunlight for energy. A common example is algae.</div>
+        </div>
+
+        
+    <div id="descriptionBox" class="roundItem">Click on an item to retrieve a description!</div>
+        <h1 id="titleItem">Sources</h1>
+        <div id="sourceBox" class="roundItem">
+            <li><a href="https://www.greatlakesmud.org/uploads/4/0/0/1/40013937/lake_michigan_food_web.pdf">greatlakesmud.org</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Great_blue_heron#Diet">wikipedia.org</a></li>
+            <li><a href="https://www.fws.gov/species/walleye-sander-vitreus#:~:text=Walleye%20are%20a%20freshwater%20fish,to%204%20years%20of%20age">fws.org</a></li>
+            <li><a href="https://jackscharterservice.com/the-fascinating-world-of-lake-michigans-fish-species/">jackscharterservice.com</a></li>
+            <li><a href="https://www.allaboutbirds.org/guide/Canvasback/id">allaboutbirds.org</a></li>
+        </div>
+
+        </div>
+    <button id="predSelect" class="roundItem" onmouseover="onMouse()" onmouseleave="offMouse()" onclick="showPred()">Show Predation</button>
+    
+</body>
+</html>
